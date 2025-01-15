@@ -6,8 +6,10 @@
 
 #### Características Principales:
 - **Registro de productos:** Anota los productos disponibles en tu frigorífico.
-- **Gestor de cantidades:** Mantén un control claro de la cantidad de cada producto.
+- **Gestor de cantidades (No implementado en su totalidad):** Mantén un control claro de la cantidad de cada producto.
 - **Notas personalizadas:** Agrega descripciones o detalles adicionales a cada producto.
+- **Eliminar productos:** Elimina los productos registrados.
+
 
 Esta aplicación está diseñada para hacer más fácil y rápido el control de tu inventario doméstico, ayudándote a evitar desperdicios y planificar tus compras con mayor precisión.
 
@@ -27,6 +29,6 @@ La elección de **DataStore** como sistema de persistencia de datos en MyFridge 
    - El uso de **Proto DataStore** permite gestionar objetos de tipo "Producto" con mayor control y flexibilidad, lo cual es esencial para una aplicación como MyFridge.
 
 4. **Diseño moderno:**
-   - **DataStore** está basado en **Coroutines** y **Flow**, lo que garantiza un acceso asíncrono y seguro a los datos, evitando bloqueos en el hilo principal.
+   - **DataStore** está basado en **Coroutines** y **Flow**, lo que garantiza un acceso seguro a los datos, evitando bloqueos en el hilo principal.
 
 En resumen, **DataStore** ofrece una solución robusta y moderna para la persistencia de datos, alineada con las necesidades de una aplicación escalable y orientada a la gestión eficiente de productos.
