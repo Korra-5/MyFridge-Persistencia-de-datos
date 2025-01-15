@@ -1,6 +1,6 @@
 ## MyFridge
 
-### 🌆 Aplicación Funcional MyFridge
+### Aplicación Funcional MyFridge
 
 **MyFridge** es una aplicación diseñada para ayudarte a gestionar el contenido de tu frigorífico de manera eficiente y organizada. Su funcionamiento es similar al de un blog de notas, permitiéndote registrar y controlar los diferentes productos que tienes, junto con su cantidad y descripciones adicionales.
 
@@ -13,7 +13,7 @@ Esta aplicación está diseñada para hacer más fácil y rápido el control de 
 
 ---
 
-### 🔒 Persistencia de Datos con DataStore
+### Persistencia de Datos con DataStore
 
 La elección de **DataStore** como sistema de persistencia de datos en MyFridge se basa en los siguientes motivos:
 
